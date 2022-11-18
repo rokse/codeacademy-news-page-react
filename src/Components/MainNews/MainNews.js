@@ -1,4 +1,5 @@
 import NewsCard from "../NewsCard/NewsCard";
+import './MainNewsStyle.css';
 
 const MainNews = ({ info: { mainClass, newsInfo } }) => {
   let news = newsInfo.map((info, index) => {

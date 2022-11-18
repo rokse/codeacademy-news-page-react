@@ -1,5 +1,6 @@
 import NewsWrapper from '../NewsWrapper/NewsWrapper';
 import SideContent from '../SideContent/SideContent';
+import './SiteContainerStyle.css'
 
 const SiteContainer = () => {
   const newsCardData = {

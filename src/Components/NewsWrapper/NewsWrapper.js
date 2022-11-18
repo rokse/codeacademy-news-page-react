@@ -1,5 +1,6 @@
 import MainNews from "../MainNews/MainNews";
 import NewsLink from "../NewsLink/NewsLink";
+import "./NewsWrapperStyle.css";
 
 const NewsWrapper = ({ data:{ mainNewsInfo, secondaryNewsInfo } }) => {
   return (

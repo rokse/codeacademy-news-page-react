@@ -1,3 +1,5 @@
+import './NewsCardStyle.css';
+
 const NewsCard = ({ data:{ imageUrl, newsCategory, newsDescription, newsDate } }) => {
   return (
     <a href="#">

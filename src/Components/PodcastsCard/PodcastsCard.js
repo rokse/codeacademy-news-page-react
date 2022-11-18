@@ -1,4 +1,5 @@
 import podcastsImage from '../Images/podcastsImage.png';
+import './PodcastsCardStyle.css';
 
 const PodcastsCard = (props) => {
   return (

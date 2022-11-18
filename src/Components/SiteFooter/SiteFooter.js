@@ -2,6 +2,7 @@ import UlListComponent from "../UlListComponent/UlListComponent";
 import { ReactComponent as FooterSvg } from '../Images/footer.svg';
 import { ReactComponent as LogoSvg } from '../Images/codeacademy-white.svg';
 import { ReactComponent as SertikaSvg } from '../Images/sertika.svg';
+import './SiteFooterStyle.css';
 
 const SiteFooter = ({ data: { footerMenuItems, listItemsObj, listIconsObj } }) => {
   return (
@@ -34,9 +35,9 @@ const SiteFooter = ({ data: { footerMenuItems, listItemsObj, listIconsObj } }) =
         <div className="footer-certificates">
             <SertikaSvg />
         </div>
-      </div>
-      <div className="footer-decoration">
+        <div className="footer-decoration">
         <FooterSvg />
+        </div>
       </div>
     </footer>
   );

@@ -1,0 +1,22 @@
+.news-link {
+  background-color: white;
+  margin-right: 30px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  padding: 33px;
+}
+
+.news-link img {
+  width: 19px;
+  height: 33px;
+}
+
+.news-link p {
+  font-size: 24px;
+  margin: 0;
+}
+
+.side-content .events-wrapper .news-link {
+  margin: 0;
+}

@@ -1,3 +1,5 @@
+import './EventCardStyle.css';
+
 const EventCard = ({ data: { day, month, eventLocation, eventDescription } }) => {
   return (
     <div className="event-card">

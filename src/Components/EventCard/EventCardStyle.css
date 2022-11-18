@@ -1,0 +1,43 @@
+.events-wrapper .event-card {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  margin: 0 0 50px 0;
+}
+
+.events-wrapper .event-card p {
+  text-transform: uppercase;
+  font-size: 10px;
+  margin: 0 0 3px;
+}
+
+.events-wrapper .event-card h2 {
+  font-size: 24px;
+}
+
+.events-wrapper .event-card .event-date-floatter {
+  max-width: 60px;
+  background: #fff;
+  color: #000;
+  border-radius: 8px;
+  text-align: center;
+  overflow: hidden;
+  margin: -60px 0 29px 10px;
+  position: relative;
+}
+.events-wrapper .event-card .event-date-floatter .day {
+  padding: 9px 4px 10px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.events-wrapper .event-card .event-date-floatter .month{
+  background: #ff00e9;
+  letter-spacing: 1px;
+  font-size: 10px;
+  line-height: 1.2;
+  padding: 4px;
+  text-transform: uppercase;
+  color: #fff;
+}

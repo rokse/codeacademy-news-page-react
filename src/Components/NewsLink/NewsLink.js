@@ -1,3 +1,5 @@
+import './NewsLinkStyle.css';
+
 const NewsLink = (props) => {
   return (
     <a href="#">

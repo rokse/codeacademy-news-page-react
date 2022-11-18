@@ -1,5 +1,6 @@
 import EventsWrapper from "../EventsWrapper/EventsWrapper";
 import PodcastsWrapper from "../PodcastsWrapper/PodcastsWrapper";
+import './SideContent.css'
 
 const SideContent = () => {
   return (

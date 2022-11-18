@@ -1,0 +1,13 @@
+.side-content .podcasts-wrapper .podcasts-card {
+  background-color: white;
+  margin-bottom: 30px;
+}
+
+.side-content .podcasts-wrapper .podcasts-card img {
+  width: 365px;
+  height: 70px;
+}
+
+.side-content .podcasts-wrapper .podcasts-card .podcasts-card-description {
+  padding: 17px 20px;
+}

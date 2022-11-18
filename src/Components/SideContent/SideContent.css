@@ -1,0 +1,4 @@
+.side-content {
+  grid-area: side;
+  max-width: 365px;
+}
