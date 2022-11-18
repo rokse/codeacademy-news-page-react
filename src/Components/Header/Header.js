@@ -41,7 +41,7 @@ const Header = () => {
         <img src="https://codeacademy.lt/wp-content/themes/codeacademy/dist/images/codeacademy-black.svg" alt="CodeAcademy Black Logo" />
       </div>
       <nav className="main-navigation">
-        {/* <UlListComponent data={menuItemsObj}/> */}
+        <UlListComponent data={menuItemsObj}/>
         <a href="+37066366555" className="button">Skambinti</a>
       </nav>
     </header>
