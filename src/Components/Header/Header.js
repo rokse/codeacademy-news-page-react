@@ -5,23 +5,23 @@ const Header = () => {
   const menuItemsObj =
   {
     listItems: [{
-      title: 'Verslui',
-      url: '#'
+      title: 'Home',
+      url: '/'
+    },
+    {
+      title: 'Programos',
+      url: '/Programos'
+    },
+    {
+      title: 'Naujienos',
+      url: '/naujienos'
     },
     {
       title: 'Studentams',
       url: '#'
     },
     {
-      title: 'Programos',
-      url: '#'
-    },
-    {
       title: 'Apie mus',
-      url: '#'
-    },
-    {
-      title: 'Naujienos',
       url: '#'
     },
     {
@@ -38,13 +38,15 @@ const Header = () => {
 
   return (
     <header className="main-header">
-      <div className="logo-wrapper">
-        <img src="https://codeacademy.lt/wp-content/themes/codeacademy/dist/images/codeacademy-black.svg" alt="CodeAcademy Black Logo" />
+      <div className="header-wrap">
+        <div className="logo-wrapper">
+          <img src="https://codeacademy.lt/wp-content/themes/codeacademy/dist/images/codeacademy-black.svg" alt="CodeAcademy Black Logo" />
+        </div>
+        <nav className="main-navigation">
+          <UlListComponent data={menuItemsObj}/>
+          <a href="+37066366555" className="button">Skambinti</a>
+        </nav>
       </div>
-      <nav className="main-navigation">
-        <UlListComponent data={menuItemsObj}/>
-        <a href="+37066366555" className="button">Skambinti</a>
-      </nav>
     </header>
   );
 };

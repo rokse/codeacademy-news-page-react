@@ -3,8 +3,12 @@ import Header from './Components/Header/Header';
 import { ReactComponent as FacebookSvg } from './Components/Images/Facebook.svg';
 import { ReactComponent as InstagramSvg } from './Components/Images/Instagram.svg';
 import { ReactComponent as LinkedInSvg } from './Components/Images/LinkedIn.svg';
-import SiteContainer from './Components/SiteContainer/SiteContainer';
+import ProgramsSiteContainer from './Pages/ProgramsSiteContainer/ProgramsSiteContainer';
+import HomePage from './Pages/HomePage/HomePage';
+import SiteContainer from './Pages/SiteContainer/SiteContainer';
 import SiteFooter from './Components/SiteFooter/SiteFooter';
+import { React } from 'react';
+import { Route, Routes } from 'react-router-dom';
 
 function App() {
   const footerData = {
@@ -95,7 +99,13 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <SiteContainer />
+
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/programos" element={<ProgramsSiteContainer />} />
+        <Route path="/naujienos" element={<SiteContainer />} />
+      </Routes>
+
       <SiteFooter data={footerData} />
     </div>
   );

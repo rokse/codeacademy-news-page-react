@@ -1,6 +1,7 @@
 import EventCard from "../EventCard/EventCard";
 import NewsLink from "../NewsLink/NewsLink";
 import './EventsWrapperStyle.css'
+import { React } from "react";
 
 const EventsWrapper = () => {
   const eventInfoObj = {

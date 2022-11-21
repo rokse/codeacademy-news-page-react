@@ -1,5 +1,5 @@
-import NewsWrapper from '../NewsWrapper/NewsWrapper';
-import SideContent from '../SideContent/SideContent';
+import NewsWrapper from '../../Components/NewsWrapper/NewsWrapper';
+import SideContent from '../../Components/SideContent/SideContent';
 import './SiteContainerStyle.css'
 
 const SiteContainer = () => {
